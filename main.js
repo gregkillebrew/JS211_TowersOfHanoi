@@ -47,10 +47,10 @@ const printStacks = () => {
 
 
 
-// Next, what do you think this function should do?
+// Moving the end piece, to another part.
 const movePiece = (startStack, endStack) => {
   stacks[endStack].push(stacks[startStack].pop())
-  // Your code here
+  
 
 }
 
